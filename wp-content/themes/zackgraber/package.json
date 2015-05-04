@@ -1,0 +1,16 @@
+{
+  "name": "zackgraber",
+  "version": "0.0.1",
+  "description": "Build tools for Zack Graber's website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "./node_modules/.bin/node-sass sass/style.sass style.css",
+    "watch": "./node_modules/.bin/node-sass -w sass/**/*.sass sass/main.sass style.css"
+  },
+  "author": "Joseph Furlott <jmfurlott@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^2.1.1"
+  }
+}
