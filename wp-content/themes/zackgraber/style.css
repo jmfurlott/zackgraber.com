@@ -613,6 +613,21 @@ embed, iframe, object {
 .gallery-caption {
   display: block; }
 
+.main-navigation .menu-primary-container {
+  background-color: white;
+  position: absolute;
+  right: 0;
+  padding: 0.5rem 1rem; }
+  .main-navigation .menu-primary-container #primary-menu {
+    font-style: italic;
+    font-size: 1.25rem; }
+    .main-navigation .menu-primary-container #primary-menu li a {
+      color: #e7412c; }
+      .main-navigation .menu-primary-container #primary-menu li a:hover {
+        color: black; }
+    .main-navigation .menu-primary-container #primary-menu li + li {
+      margin-left: 2rem; }
+
 body {
   font-family: 'Exo 2', sans-serif;
   background-color: #ecf1f4; }

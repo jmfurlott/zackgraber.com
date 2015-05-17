@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "./node_modules/.bin/node-sass sass/style.sass style.css",
-    "watch": "./node_modules/.bin/node-sass -w sass/**/*.sass sass/main.sass style.css"
+    "watch": "./node_modules/.bin/node-sass -w sass/**/*.sass sass/style.sass style.css"
   },
   "author": "Joseph Furlott <jmfurlott@gmail.com>",
   "license": "MIT",
