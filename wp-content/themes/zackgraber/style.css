@@ -656,6 +656,18 @@ h3 {
     color: #ecf1f4;
     font-weight: 200; }
 
+#main input, #main textarea {
+  border: none;
+  padding: 0.5rem;
+  border: 2px; }
+#main form > div {
+  margin: 2rem 0; }
+
+#main .button {
+  background-color: white;
+  color: #e7412c;
+  padding: 0.75rem; }
+
 body {
   font-family: 'Exo 2', sans-serif;
   background-color: #ecf1f4; }

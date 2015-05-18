@@ -100,6 +100,10 @@ add_action( 'widgets_init', 'zackgraber_widgets_init' );
  * Enqueue scripts and styles.
  */
 function zackgraber_scripts() {
+	wp_deregister_script('jquery');
+	wp_register_script('jquery', ("http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"), false, '');
+	wp_enqueue_script('jquery');
+  
 	wp_enqueue_style( 'zackgraber-style', get_stylesheet_uri() );
     wp_enqueue_style( 'exo-web-font', 'http://fonts.googleapis.com/css?family=Exo+2:400,100italic,300italic,300,700,900');
 	wp_enqueue_script( 'zackgraber-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
