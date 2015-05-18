@@ -54,6 +54,7 @@ get_header(); ?>
      $(".contact-form > form").submit(function(e) {
        e.preventDefault();
        console.log("hello world");
+       
      }) 
    })
   </script>
