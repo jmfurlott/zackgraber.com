@@ -628,6 +628,34 @@ embed, iframe, object {
     .main-navigation .menu-primary-container #primary-menu li + li {
       margin-left: 2rem; }
 
+h1 {
+  color: #18c3e0;
+  font-size: 4rem;
+  font-weight: 900; }
+
+h2 {
+  background-color: white;
+  font-style: italic;
+  color: #1b3032;
+  font-weight: 100;
+  padding: 1rem 0.5rem; }
+
+h3 {
+  color: #e7412c;
+  font-weight: 600; }
+
+.light-background, .dark-background {
+  padding: 0.5rem 0rem; }
+
+.light-background p {
+  color: #1b3032; }
+
+.dark-background {
+  background-color: #1b3032; }
+  .dark-background p {
+    color: #ecf1f4;
+    font-weight: 200; }
+
 body {
   font-family: 'Exo 2', sans-serif;
   background-color: #ecf1f4; }

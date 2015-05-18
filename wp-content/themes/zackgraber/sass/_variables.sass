@@ -2,5 +2,27 @@
 $orange: #e7412c
 $sky-blue: #18c3e0
 $dark-blue: #1b3032
-$light-blue: #ecf1f4
 $background-blue: #ecf1f4
+
+// Breakpoints
+@mixin bp($point)
+  @if $point == xl
+    @media (min-width: 70em)
+      @content
+
+  @else if $point == l
+    @media (min-width: 64em)
+      @content
+
+  @else if $point == m
+    @media (min-width: 50em)
+      @content
+
+  @else if $point == s
+     @media (min-width: 37.5em)
+       @content
+
+  @else if $point == xs
+    @media (max-width: 37.5em)
+      @content
+
