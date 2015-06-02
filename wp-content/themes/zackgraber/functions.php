@@ -169,3 +169,103 @@ function cpt_projects() {
   register_post_type( 'project', $args ); 
 }
 add_action( 'init', 'cpt_projects' );
+
+
+/* ACF for Project */
+if(function_exists("register_field_group"))
+{
+	register_field_group(array (
+		'id' => 'acf_project',
+		'title' => 'Project',
+		'fields' => array (
+			array (
+				'key' => 'field_556e35766ae5a',
+				'label' => 'First Section Header',
+				'name' => 'first_section_header',
+				'type' => 'text',
+				'default_value' => 'Background',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_556e35906ae5b',
+				'label' => 'First Section Content',
+				'name' => 'first_section_content',
+				'type' => 'wysiwyg',
+				'default_value' => '',
+				'toolbar' => 'full',
+				'media_upload' => 'yes',
+			),
+			array (
+				'key' => 'field_556e35a9fabeb',
+				'label' => 'Before Picture',
+				'name' => 'before_picture',
+				'type' => 'image',
+				'save_format' => 'object',
+				'preview_size' => 'thumbnail',
+				'library' => 'all',
+			),
+			array (
+				'key' => 'field_556e35be6dbfc',
+				'label' => 'After Picture',
+				'name' => 'after_picture',
+				'type' => 'image',
+				'save_format' => 'object',
+				'preview_size' => 'thumbnail',
+				'library' => 'all',
+			),
+			array (
+				'key' => 'field_556e3cbb9f5fb',
+				'label' => 'Images',
+				'name' => 'images',
+				'type' => 'repeater',
+				'sub_fields' => array (
+					array (
+						'key' => 'field_556e3ce09f5fc',
+						'label' => 'image',
+						'name' => 'image',
+						'type' => 'image',
+						'column_width' => '',
+						'save_format' => 'object',
+						'preview_size' => 'thumbnail',
+						'library' => 'all',
+					),
+				),
+				'row_min' => '',
+				'row_limit' => '',
+				'layout' => 'table',
+				'button_label' => 'Add Row',
+			),
+			array (
+				'key' => 'field_556e3d00dea8b',
+				'label' => 'Last Content',
+				'name' => 'last_content',
+				'type' => 'wysiwyg',
+				'default_value' => '',
+				'toolbar' => 'full',
+				'media_upload' => 'yes',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'project',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'no_box',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));
+}
