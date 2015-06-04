@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<div id="project" class="content-area">
 		<main id="main" class="site-main" role="main">
 		  <?php while ( have_posts() ) : the_post(); ?>
         <!-- Titles -->
@@ -25,13 +25,13 @@ get_header(); ?>
         <!-- Before and after images -->
         <?php $before_image = get_field("before_picture"); ?>
         <?php $after_image = get_field("after_picture"); ?>
-        <div class="brands">
+        <div class="brands container">
            <img src="<?php echo $before_image['url']; ?>">
            <img src="<?php echo $after_image['url']; ?>">
         </div>
 
         <!-- Infinite pictures -->
-        <div class="images">
+        <div class="images container">
         <?php
         if(have_rows("images")) {
           while(have_rows("images")) {
@@ -48,7 +48,7 @@ get_header(); ?>
         </div>
 
         <!-- Extra content -->
-        <div class="container">
+        <div class="container last-content">
             <?php the_field("last_content"); ?>
         </div>
 		<?php endwhile; // end of the loop. ?>

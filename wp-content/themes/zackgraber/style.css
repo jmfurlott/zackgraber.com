@@ -775,6 +775,57 @@ embed, iframe, object {
 /**
  * Alias for j-cf().
  */
+.projects .project {
+  height: 250px;
+  float: left;
+  clear: none;
+  width: 48.5%;
+  margin-left: 0;
+  margin-right: 3%; }
+  .projects .project:nth-of-type(2n) {
+    margin-right: 0;
+    float: right; }
+  .projects .project:nth-of-type(2n+1) {
+    clear: both; }
+  @media (min-width: 37.5em) {
+    .projects .project {
+      float: left;
+      clear: none;
+      width: 31.33333%;
+      margin-left: 0;
+      margin-right: 3%; }
+      .projects .project:nth-of-type(3n) {
+        margin-right: 0;
+        float: right; }
+      .projects .project:nth-of-type(3n+1) {
+        clear: both; } }
+  .projects .project-link-image {
+    height: 100%;
+    background-size: contain; }
+
+#project .brands, #project .images, #project .last-content {
+  padding: 2rem auto; }
+#project .brands {
+  padding: 2rem 0; }
+  #project .brands > img {
+    float: left;
+    clear: none;
+    width: 48.5%;
+    margin-left: 0;
+    margin-right: 3%; }
+    #project .brands > img:nth-of-type(2n) {
+      margin-right: 0;
+      float: right; }
+    #project .brands > img:nth-of-type(2n+1) {
+      clear: both; }
+#project .images {
+  text-align: center;
+  margin: 2rem 0 0 0; }
+  #project .images .image {
+    margin: 2rem 0; }
+#project .last-content p {
+  text-align: center; }
+
 .main-navigation .menu-primary-container {
   background-color: white;
   position: absolute;
