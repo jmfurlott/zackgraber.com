@@ -178,6 +178,18 @@ if(function_exists("register_field_group"))
 		'id' => 'acf_project',
 		'title' => 'Project',
 		'fields' => array (
+            array (
+				'key' => 'field_subtitle',
+				'label' => 'Subtitle',
+				'name' => 'subtitle',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
 			array (
 				'key' => 'field_556e35766ae5a',
 				'label' => 'First Section Header',
