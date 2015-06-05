@@ -15,6 +15,11 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-            <h1>How's it going?</h1>
-        </main><!-- #main -->
+      <div class="container">
+            <div class="index-copy">
+                <h1>How's it going?</h1>
+                <h2>I'm Zack Graber, a designer and branding<br>specialist based in Gainesville, Florida.</h2>
+            </div>
+        </div>
+    </main><!-- #main -->
 	</div><!-- #primary -->

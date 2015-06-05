@@ -775,6 +775,22 @@ embed, iframe, object {
 /**
  * Alias for j-cf().
  */
+#page, #content, #primary, #main, .container {
+  height: 100%; }
+
+.index-copy {
+  text-align: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+  .index-copy h1 {
+    margin: 0;
+    font-size: 5rem; }
+  .index-copy h2 {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem; }
+
 .projects .project {
   height: 250px;
   float: left;
@@ -881,9 +897,13 @@ h3 {
   color: #e7412c;
   padding: 0.75rem; }
 
+html, body {
+  height: 100%; }
+
 body {
   font-family: 'Exo 2', sans-serif;
-  background-color: #ecf1f4; }
+  background-color: #ecf1f4;
+  min-height: 100%; }
 
 .container {
   padding: 0 1rem; }
