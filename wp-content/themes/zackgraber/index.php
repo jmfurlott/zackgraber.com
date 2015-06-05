@@ -13,7 +13,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area index" style="background-image: url('<?php echo get_stylesheet_directory_uri() ?>/img/background.svg')">
 		<main id="main" class="site-main" role="main">
       <div class="container">
             <div class="index-copy">
