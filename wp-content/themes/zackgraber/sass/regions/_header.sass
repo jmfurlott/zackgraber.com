@@ -1,18 +1,53 @@
+.site-header
+  position: relative
+  z-index: 1000
+
 .main-navigation
+  display: none
+  @include bp(m)
+    display: block
+
+  &.open
+    display: block
+
   .menu-primary-container
     background-color: white
     position: absolute
-    right: 0
+    right: 1rem
+    top: 3rem
+    @include bp(m)
+      right: 5rem
+      top: 2rem 
     padding: 0.5rem 1rem
 
     #primary-menu
       font-style: italic
       font-size: 1.25rem
+      list-style-type: none
+      padding: 0
+      margin-left: 0
+      margin-bottom: 0
 
       li
+        @include bp(m)
+          display: inline
         a
           color: $orange
+          text-decoration: none
           &:hover
             color: black
       li + li
-        margin-left: 2rem
+        @include bp(m)
+          margin-left: 2rem
+
+.hamburger
+  top: .5rem
+  right: 1rem
+  position: absolute
+  background-color: white
+  color: $orange !important // cheating...
+  font-size: 1.25rem
+  text-decoration: none
+  padding: .5rem 1rem
+  @include bp(m) 
+    display: none

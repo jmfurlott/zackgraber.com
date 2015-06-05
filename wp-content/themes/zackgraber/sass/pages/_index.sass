@@ -1,9 +1,12 @@
 .index-copy
   text-align: right
-  position: relative
+  position: fixed
   top: 50%
   transform: translateY(-50%)
-
+  right: 2rem
+  @include bp(m)
+    right: 5rem
+    
   h1
     margin: 0
     font-size: 5rem

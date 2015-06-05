@@ -22,10 +22,20 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'zackgraber' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
+        <a href="#" class="hamburger">Menu</a>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'zackgraber' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
+
+    <script type="text/javascript">
+      $(function() { 
+        $(".hamburger").click(function(e) { 
+          e.preventDefault();
+          $(this).toggleClass("open");
+          $("#site-navigation").toggleClass("open");    
+        });        
+      });
+    </script>
