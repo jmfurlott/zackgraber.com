@@ -15,7 +15,7 @@ get_header(); ?>
           );
           $projects_array = get_posts( $args );
           foreach ($projects_array as $project) {
-              $image = get_field("after_picture", $project->ID);
+              $image = get_field("cover_picture", $project->ID);
               ?>
               <div class="project">
                 <a class=" project-link" href="<?php echo get_permalink($project->ID); ?>"> 

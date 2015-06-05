@@ -191,6 +191,15 @@ if(function_exists("register_field_group"))
 				'maxlength' => '',
 			),
 			array (
+				'key' => 'field_cover_picture',
+				'label' => 'Cover Picture',
+				'name' => 'cover_picture',
+				'type' => 'image',
+				'save_format' => 'object',
+				'preview_size' => 'thumbnail',
+				'library' => 'all',
+			),
+			array (
 				'key' => 'field_556e35766ae5a',
 				'label' => 'First Section Header',
 				'name' => 'first_section_header',

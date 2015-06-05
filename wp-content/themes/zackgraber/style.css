@@ -868,8 +868,9 @@ embed, iframe, object {
       .projects .project:nth-of-type(3n+1) {
         clear: both; } }
   .projects .project-link-image {
-    height: 100%;
-    background-size: contain; }
+    padding-top: 100%;
+    background-size: contain;
+    background-color: #1b3032; }
 
 #project .brands, #project .images, #project .last-content {
   padding: 2rem auto; }
