@@ -71,13 +71,17 @@ get_header(); ?>
             </div>
           </div>
 
-          <div class="col-md-6">
-            <div class="contact-direct">
-              <p>Don't really like forms? I don't either.  Feel free to give me a call or shoot me a direct email.</p>
-              <p><a href="mailto:zacharyjgraber@gmail.com">Email@zackgraber.com</a></p>
-              <p><a href="tel:3525145340">352 514 5340</a></p>
-              <p>Or just check me out on social media.</p>
-              <!-- Social Media icons -->
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="contact-direct">
+                  <p>Don't really like forms? I don't either.  Feel free to give me a call or shoot me a direct email.</p>
+                  <p><a href="mailto:zacharyjgraber@gmail.com">Email@zackgraber.com</a></p>
+                  <p><a href="tel:3525145340">352 514 5340</a></p>
+                  <p>Or just check me out on social media.</p>
+                  <!-- Social Media icons -->
+                </div>
+              </div>
             </div>
           </div>
         </div>

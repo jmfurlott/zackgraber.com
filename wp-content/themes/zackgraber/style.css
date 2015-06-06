@@ -5775,13 +5775,23 @@ button.close {
 #project .last-content p {
   text-align: center; }
 
+.contact .contact-form {
+  padding-top: 1rem; }
+.contact .row {
+  margin: 3rem 0 !important; }
 .contact .button {
   font-size: 1.25rem;
-  width: 100%; }
+  width: 100%;
+  padding: 1rem 2.5rem !important; }
 .contact .input-group {
   width: 100%; }
   .contact .input-group .form-control {
-    width: 100%; }
+    width: 100%;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem !important; }
+@media (min-width: 50em) {
+  .contact .contact-direct {
+    padding: 15rem 12rem; } }
 
 .site-header {
   position: relative;
