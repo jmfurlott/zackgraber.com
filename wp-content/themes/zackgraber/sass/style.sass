@@ -17,5 +17,10 @@ body
 
 .container
   padding: 0 1rem
+  @include cf()
   @include bp(m)
     padding: 0 5rem
+
+.left-side, .right-side
+  @include bp(s)
+    @include col(1/2)

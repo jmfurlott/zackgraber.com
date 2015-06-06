@@ -977,6 +977,8 @@ h3 {
 
 .dark-background {
   background-color: #1b3032; }
+  .dark-background ul li {
+    color: #ecf1f4; }
   .dark-background p {
     color: #ecf1f4;
     font-weight: 200; }
@@ -1002,7 +1004,23 @@ body {
   min-height: 100%; }
 
 .container {
-  padding: 0 1rem; }
+  padding: 0 1rem;
+  *zoom: 1; }
+  .container:before, .container:after {
+    content: '';
+    display: table; }
+  .container:after {
+    clear: both; }
   @media (min-width: 50em) {
     .container {
       padding: 0 5rem; } }
+
+@media (min-width: 37.5em) {
+  .left-side, .right-side {
+    float: left;
+    clear: none;
+    width: 48.5%;
+    margin-left: 0;
+    margin-right: 3%; }
+    .left-side:last-child, .right-side:last-child {
+      margin-right: 0; } }
