@@ -5908,18 +5908,6 @@ body {
   background-color: #ecf1f4;
   min-height: 100%; }
 
-.container {
-  padding: 0 1rem;
-  *zoom: 1; }
-  .container:before, .container:after {
-    content: '';
-    display: table; }
-  .container:after {
-    clear: both; }
-  @media (min-width: 50em) {
-    .container {
-      padding: 0 5rem; } }
-
 @media (min-width: 37.5em) {
   .left-side, .right-side {
     float: left;
