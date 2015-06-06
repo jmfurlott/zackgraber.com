@@ -32,20 +32,20 @@ get_header(); ?>
           <h3>Capabilities</h3>
           <p>Good design is more than a final product. By applying design thinking holistically to every client interaction, we have improved chances of reaching our intended goal.</p>
           <p>Some of my services include:</p>
-          <ul>
-            <li>Brand Strategy</li>
-            <li>Brand Identity</li>
-            <li>Identity Collateral</li>
-            <li>Art Direction</li>
-            <li>Logo Design</li>
-            <li>Print Design</li>
-            <li>Web Design</li>
-            <li>Signage</li>
-            <li>Environmental Graphics</li>
-            <li>Packaging Design</li>
-            <li>Motion Graphics</li>
-            <li>3D Modeling</li>
-          </ul>
+          <div class="row">
+            <div class="col-sm-6 col-md-3">Brand Strategy</div>
+            <div class="col-sm-6 col-md-3">Brand Identity</div>
+            <div class="col-sm-6 col-md-3">Identity Collateral</div>
+            <div class="col-sm-6 col-md-3">Art Direction</div>
+            <div class="col-sm-6 col-md-3">Logo Design</div>
+            <div class="col-sm-6 col-md-3">Print Design</div>
+            <div class="col-sm-6 col-md-3">Web Design</div>
+            <div class="col-sm-6 col-md-3">Signage</div>
+            <div class="col-sm-6 col-md-3">Environmental Graphics</div>
+            <div class="col-sm-6 col-md-3">Packaging Design</div>
+            <div class="col-sm-6 col-md-3">Motion Graphics</div>
+            <div class="col-sm-6 col-md-3">3D Modedivng</div>
+          </div>
         </div>
       </div>
 
