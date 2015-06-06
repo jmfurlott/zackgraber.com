@@ -15,7 +15,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area index" style="background-image: url('<?php echo get_stylesheet_directory_uri() ?>/img/background.svg')">
 		<main id="main" class="site-main" role="main">
-      <div class="container">
+          <div class="container index">
             <div class="index-copy">
                 <h1>How's it going?</h1>
                 <h2>I'm Zack Graber, a designer and branding<br>specialist based in Gainesville, Florida.</h2>
