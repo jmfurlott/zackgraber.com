@@ -5729,7 +5729,7 @@ button.close {
  * Alias for j-cf().
  */
 #main {
-  padding-top: 2rem; }
+  padding-top: 3rem; }
 
 .index {
   height: 100vh;
@@ -5774,11 +5774,8 @@ button.close {
       float: right; }
     #project .brands > img:nth-of-type(2n+1) {
       clear: both; }
-#project .images {
-  text-align: center;
-  margin: 2rem 0 0 0; }
-  #project .images .image {
-    margin: 2rem 0; }
+#project .images .image {
+  margin: 2rem 0; }
 #project .last-content p {
   text-align: center; }
 
@@ -5796,16 +5793,15 @@ button.close {
   .main-navigation .menu-primary-container {
     background-color: white;
     position: absolute;
-    right: 1rem;
+    right: 0rem;
     top: 3rem;
     padding: 0.5rem 1rem; }
     @media (min-width: 50em) {
       .main-navigation .menu-primary-container {
-        right: 5rem;
         top: 2rem; } }
     .main-navigation .menu-primary-container #primary-menu {
       font-style: italic;
-      font-size: 1.25rem;
+      font-size: 2rem;
       list-style-type: none;
       padding: 0;
       margin-left: 0;
@@ -5837,23 +5833,26 @@ button.close {
 
 h1 {
   color: #18c3e0;
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: 900;
-  line-height: 4rem; }
+  line-height: 6rem; }
 
 h2 {
   background-color: white;
   font-style: italic;
   color: #1b3032;
   font-weight: 100;
-  padding: 1rem 0.5rem; }
+  font-size: 3rem;
+  line-height: 3rem;
+  padding: 1rem 0.5rem;
+  display: inline-block; }
 
 h3 {
   color: #e7412c;
   font-weight: 600; }
 
 .light-background, .dark-background {
-  padding: 0.5rem 0rem; }
+  padding: 1rem 0rem 2rem 0rem; }
 
 .light-background p {
   color: #1b3032; }
