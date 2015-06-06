@@ -5729,7 +5729,7 @@ button.close {
  * Alias for j-cf().
  */
 #main {
-  padding-top: 3rem; }
+  padding-top: 5rem; }
 
 .index {
   height: 100vh;
@@ -5774,6 +5774,14 @@ button.close {
   margin: 2rem 0; }
 #project .last-content p {
   text-align: center; }
+
+.contact .button {
+  font-size: 1.25rem;
+  width: 100%; }
+.contact .input-group {
+  width: 100%; }
+  .contact .input-group .form-control {
+    width: 100%; }
 
 .site-header {
   position: relative;

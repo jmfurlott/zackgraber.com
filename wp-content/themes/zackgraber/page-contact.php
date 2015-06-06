@@ -12,40 +12,74 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area contact">
 		<main id="main" class="site-main" role="main">
       <div class="container">
-        <h1>Get in touch!</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Get in touch!</h1>
 
-        <div class="contact-form">
-          <form>
-            <div>
-              <input type="text" name="firstName" placeholder="First Name" />
-              <input type="text" name="lastName" placeholder="Last Name" />
+            <div class="contact-form">
+              <form>
+                <div class="row">
+                  <div class="col-sm-6 col-md-6">
+                    <div class="input-group">
+                    <input type="text" class="form-control" name="firstName" placeholder="First Name" />
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6">
+                    <div class="input-group">
+                    <input type="text" class="form-control" name="lastName" placeholder="Last Name" />
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="input-group">
+                      <input type="email" class="form-control" name="email" placeholder="Email" />
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="col-sm-6 col-md-6">
+                    <div class="input-group">
+                      <input type="text" class="form-control" name="business" placeholder="Business" />
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6">
+                    <div class="input-group">
+                      <input type="text" class="form-control" name="pokemon" placeholder="Favorite Pokemon" />
+                    </div>
+                  </div>
+                </div>
+   
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="input-group">
+                      <textarea class="form-control" placeholder="What are you looking for?" rows="4"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-2">
+                    <input type="submit" value="Submit" class="button">
+                  </div>
+                </div>
+              </form>
             </div>
+          </div>
 
-            <div>
-              <input type="email" name="email" placeholder="Email" />
+          <div class="col-md-6">
+            <div class="contact-direct">
+              <p>Don't really like forms? I don't either.  Feel free to give me a call or shoot me a direct email.</p>
+              <p><a href="mailto:zacharyjgraber@gmail.com">Email@zackgraber.com</a></p>
+              <p><a href="tel:3525145340">352 514 5340</a></p>
+              <p>Or just check me out on social media.</p>
+              <!-- Social Media icons -->
             </div>
-
-            <div>
-              <input type="text" name="business" placeholder="Business" />
-              <input type="text" name="pokemon" placeholder="Favorite Pokemon" />
-            </div>
- 
-            <div>
-              <textarea placeholder="What are you looking for?" rows="5"></textarea>
-            </div>
-            <input type="submit" value="Submit" class="button">
-          </form>
-        </div>
-
-        <div class="contact-direct">
-          <p>Don't really like forms? I don't either.  Feel free to give me a call or shoot me a direct email.</p>
-          <p><a href="mailto:zacharyjgraber@gmail.com">Email@zackgraber.com</a></p>
-          <p><a href="tel:3525145340">352 514 5340</a></p>
-          <p>Or just check me out on social media.</p>
-          <!-- Social Media icons -->
+          </div>
         </div>
       </div>
     </main><!-- #main -->
