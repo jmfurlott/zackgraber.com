@@ -5820,12 +5820,24 @@ button.close {
   position: absolute;
   background-color: white;
   color: #e7412c !important;
-  font-size: 1.25rem;
+  font-size: 2rem;
   text-decoration: none;
   padding: .5rem 1rem; }
   @media (min-width: 50em) {
     .hamburger {
       display: none; } }
+
+.logo {
+  position: absolute;
+  top: 1rem; }
+  @media (min-width: 50em) {
+    .logo {
+      top: 2rem; } }
+  .logo img {
+    height: 3rem; }
+    @media (min-width: 50em) {
+      .logo img {
+        height: 3rem; } }
 
 h1 {
   color: #18c3e0;

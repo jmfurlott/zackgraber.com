@@ -21,6 +21,11 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'zackgraber' ); ?></a>
   <div class="container">
+    <span class="logo">
+      <a href="/">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.svg">
+      </a>
+    </span>
 	<header id="masthead" class="site-header" role="banner">
         <a href="#" class="hamburger">Menu</a>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
