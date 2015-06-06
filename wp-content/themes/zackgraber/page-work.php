@@ -9,6 +9,7 @@ get_header(); ?>
       </div>
       <div class="container">
         <div class="projects">
+        <div class="row">
           <?php
           $args = array(
             'post_type' => 'project' 
@@ -17,7 +18,7 @@ get_header(); ?>
           foreach ($projects_array as $project) {
               $image = get_field("cover_picture", $project->ID);
               ?>
-              <div class="project">
+              <div class="project col-sm-6 col-md-4">
                 <a class=" project-link" href="<?php echo get_permalink($project->ID); ?>"> 
                   <div class="project-link-image" style="background-image: url(<?php echo $image['url'];?>);"></div>
                 </a>
@@ -25,6 +26,7 @@ get_header(); ?>
               <?php
           }
           ?>
+          </div>
         </div>
       </div>
 
