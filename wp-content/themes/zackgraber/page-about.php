@@ -13,45 +13,61 @@ get_header(); ?>
     <div class="dark-background">
       <div class="container">
         <h3>Background</h3>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel faucibus turpis. Sed tempus, mi eget accumsan consequat, sapien erat gravida odio, ac vulputate lorem ex euismod arcu. Sed nulla enim, eleifend eu eros sed, tempus eleifend augue. In efficitur est ac rhoncus sollicitudin. Suspendisse nec orci a orci ultrices mattis. Nunc egestas massa a neque porttitor, a viverra purus venenatis. Integer tempus consequat congue. Morbi at consequat arcu, ac gravida elit. Vestibulum sit amet sagittis nunc. Praesent cursus enim quam.
-          </p>
-          <p>
-              Suspendisse blandit fermentum finibus. Duis in sollicitudin nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquam porttitor justo, quis cursus sem pellentesque eget. Quisque urna arcu, feugiat vel elit nec, ullamcorper placerat mi. Mauris sit amet sagittis felis. Donec ornare elit libero, feugiat ultricies risus aliquet sed. Donec sodales maximus leo, id fermentum magna ullamcorper ac. Nullam feugiat ante vel libero bibendum, vitae lobortis diam dignissim. Sed fermentum vel massa et varius. In hac habitasse platea dictumst. Cras eget leo enim. Curabitur volutpat tristique est vel efficitur. Curabitur justo leo, accumsan at sodales sit amet, imperdiet ac velit. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          </p>
+          <p>I ended up in the design field by accident. As a kid, I admired my older brother’s artistic abilities. I spent much of my time hiding in my bedroom recreating his drawings. By high school, my friends and I were crazy about graffiti. We’d go out every weekend biking around Gainesville with backpacks full of paint, hoping we’d get noticed. I was crazy about sharing my work with as many people as possible, but was always afraid of how quickly they would disappear with a fresh coat of paint.</p>
+          <p>After high school, I wasn’t really sure what I wanted to do with my life. I loved history, hated math, and spent a lot of energy on artistic ventures. I didn’t have the slightest idea what graphic design actually was until my first semester of Digital Arts and Design at Full Sail University. After three months, I was assigned a branding project and discovered how natural it felt. From then on I looked at every assignment through a branding lens.</p>
+          <p>After I graduated from college, I started an internship at Parisleaf. At the time, it was a small studio with just 2 designers on staff. My first project was to design the logo for a local spa called Spa Royale. We had a time crunch, and I only had 25 minutes to make it happen. 15 of those minutes were spent being car-sick in the back of a Prius driving to the client meeting. The client loved it and the logo is now an enormous sign on the side of their building. When I saw them unveil the sign, that’s when my passion for branding took off.</p>
         </div>
       </div>
 
       <div class="light-background">
         <div class="container">
-          <h3>Philosophy</h3>
-          <p>
-            Ut dictum tellus vel purus ullamcorper, at iaculis velit finibus. Pellentesque tempor nisi libero, vel placerat justo malesuada non. Vivamus ac ante ac elit volutpat pharetra. Proin imperdiet ullamcorper elit semper pretium. Sed mollis nisl ac massa pellentesque, a aliquam neque malesuada. Aliquam elementum, urna quis commodo sodales, sapien est convallis nisi, scelerisque pulvinar lacus sapien a erat. Suspendisse sit amet orci id arcu fringilla fermentum vitae nec nulla. Sed dignissim ipsum a tortor hendrerit porta.
-          </p>
-          <p>
-            Morbi ut tristique nibh. Aliquam pulvinar tristique risus.
-          </p>
+          <h3>Design Thinking</h3>
+          <p>Every graphic design project is started to solve a problem. Maybe your sales stagnated and you want to attract a new crowd. Maybe you’re a startup who wants to get noticed and secure capital. Maybe you just want to make more money and you heard somewhere that good design is good business. Whatever your problem, an honest look at your branding can always help.</p>
+          <p>But what does a logo have to do with anything? Branding isn’t purely aesthetics. It has a much greater potential. Branding is the process of defining who you are, identifying who you appeal to, and creating a plan to bring the two together. Sometimes that plan includes a new logo and some different graphics. But more often than not, good branding looks at business as a whole.</p>
         </div>
       </div>
 
       <div class="dark-background">
         <div class="container">
           <h3>Capabilities</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor nisi eget turpis malesuada tempor. Vestibulum congue id nisl at porta. Fusce non sagittis lorem, in tempor augue. Mauris vitae tortor et dui imperdiet consequat. Curabitur at justo risus. Cras pulvinar metus ut odio mattis fermentum. Aenean lobortis nibh ut dolor congue blandit. Quisque eu magna sit amet erat placerat aliquet. Mauris pellentesque ligula quis nibh tristique tincidunt. Quisque dolor mauris, placerat eu quam vitae, pulvinar dapibus arcu. Donec quis vulputate nibh. Morbi gravida purus non purus scelerisque egestas.</p>
+          <p>Good design is more than a final product. By applying design thinking holistically to every client interaction, we have improved chances of reaching our intended goal.</p>
+          <p>Some of my services include:</p>
+          <ul>
+            <li>Brand Strategy</li>
+            <li>Brand Identity</li>
+            <li>Identity Collateral</li>
+            <li>Art Direction</li>
+            <li>Logo Design</li>
+            <li>Print Design</li>
+            <li>Web Design</li>
+            <li>Signage</li>
+            <li>Environmental Graphics</li>
+            <li>Packaging Design</li>
+            <li>Motion Graphics</li>
+            <li>3D Modeling</li>
+          </ul>
         </div>
       </div>
 
       <div class="light-background">
         <div class="container">
           <h3>Dream Projects</h3>
-          <p>I'm psyched about every project I work on, but there are few unicrns I'm try to catch.  If you're one of these, for the love of Rand, give me a call!</p>
+          <p>I’m psyched about every project I work on, but there are a few unicorns I’m trying to catch.</p>
+          <p><strong>Evil Corporation in a movie or video game:</strong> I would’ve loved to work on Lost’s Dharma Initiative and all the weird food packaging.</p>
+          <p><strong>Anything to do with BMX:</strong> When I was a kid, I was a huge fan of the BMX scene. I always found myself drawing logos on my bike frame or taking pictures for phony pedal ads.</p>
+          <p><strong>Car Dashboard Display:</strong> Actually, let me do the visuals for an entire car. Not the body, but the icons on the gear shift, the display for the radio, the dash, even the icons on the fluid reservoirs under the hood.</p>
         </div>
       </div>
 
       <div class="dark-background">
         <div class="container">
-          <h3>Obligatory Photo of Me</h3>
-          <p>This is me standing in front of a class of design students at Santa Fe College. I was talking to them about how to get a job after they graduate.  Public speaking is terrifying for me but it's really rewarding. If you'd like me to talk to anyone about what I do, give me a shout.</p>
+          <div class="left-side">
+            <h3>Obligatory Photo of Me</h3>
+            <p>This is me standing in front of a class of design students at Santa Fe College. I was talking to them about how to get a job after they graduate.  Public speaking is terrifying for me but it's really rewarding. If you'd like me to talk to anyone about what I do, give me a shout.</p>
+          </div>
+          <div class="right-side">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/img/class.jpg">
+          </div>
         </div>
       </div>
 		</main><!-- #main -->
