@@ -93,8 +93,28 @@ get_header(); ?>
    $(function() {
      $(".contact-form > form").submit(function(e) {
        e.preventDefault();
-       console.log("hello world");
        
+       var data = {
+         pokemon: $(this).find("input[name='pokemon']").val(),
+         firstName: $(this).find("input[name='firstName']").val(),
+         lastName: $(this).find("input[name='lastName']").val(),
+         email: $(this).find("input[name='email']").val(),
+         business: $(this).find("input[name='business']").val(),
+         description: $(this).find("textarea").val()
+       };
+
+       console.log(data);
+       var ajaxurl = "<?php echo admin_url('admin-ajax.php'); ?>";
+       $.post(
+           ajaxurl, 
+           { 
+            'action': 'send_email',
+            'data': data
+           },
+           function(response) {
+             console.log(response);
+           }
+        );
      }) 
    })
   </script>

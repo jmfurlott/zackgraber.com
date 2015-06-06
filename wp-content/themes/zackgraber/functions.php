@@ -290,3 +290,25 @@ if(function_exists("register_field_group"))
 		'menu_order' => 0,
 	));
 }
+
+
+
+// AJAX
+
+add_action( "wp_ajax_send_email", "prefix_ajax_send_email");
+add_action( "wp_ajax_nopriv_send_email", "prefix_ajax_send_email");
+
+function prefix_ajax_send_email() {
+
+  $first_name = "First name: ".$_POST['data']['firstName']."\n";                                              
+  $last_name = "Last name: ".$_POST['data']['lastName']."\n";                                                 
+  $description = "Description: ".$_POST['data']['description']."\n";                                            
+  $pokemon = "Pokemon: ".$_POST['data']['pokemon']."\n";                                                    
+  $email = "Email: ".$_POST['data']['email']."\n";                                                        
+  $business = "Business: ".$_POST['data']['business']."\n";             
+
+  $email_subject = "Email from ".$email;
+  $email_string = $first_name.$last_name.$description.$pokemon.$email.$business;
+  $headers = "From: joe@zackgraber.com";
+  return wp_mail("jmfurlott@gmail.com", $email_subject, $email_string, $headers);
+}
