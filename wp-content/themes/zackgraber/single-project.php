@@ -26,8 +26,12 @@ get_header(); ?>
         <?php $before_image = get_field("before_picture"); ?>
         <?php $after_image = get_field("after_picture"); ?>
         <div class="brands container">
-           <img src="<?php echo $before_image['url']; ?>">
-           <img src="<?php echo $after_image['url']; ?>">
+          <?php if ($before_image) { ?>
+            <img src="<?php echo $before_image['url']; ?>">
+          <?php } ?>
+          <?php if ($after_image) { ?>
+            <img src="<?php echo $after_image['url']; ?>">
+          <?php } ?>
         </div>
 
         <!-- Infinite pictures -->
