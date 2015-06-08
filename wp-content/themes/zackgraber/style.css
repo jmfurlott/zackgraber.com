@@ -5729,7 +5729,10 @@ button.close {
  * Alias for j-cf().
  */
 #main {
-  padding-top: 5rem; }
+  padding-top: 6rem; }
+
+#page {
+  border: 1rem solid white; }
 
 .index {
   height: 100vh;
@@ -5770,8 +5773,15 @@ button.close {
       float: right; }
     #project .brands > img:nth-of-type(2n+1) {
       clear: both; }
-#project .images .image {
-  margin: 2rem 0; }
+#project .images {
+  *zoom: 1; }
+  #project .images:before, #project .images:after {
+    content: '';
+    display: table; }
+  #project .images:after {
+    clear: both; }
+  #project .images .image {
+    margin: 2rem 0; }
 #project .last-content p {
   text-align: center; }
 
@@ -5808,11 +5818,11 @@ button.close {
     background-color: white;
     position: absolute;
     right: 0rem;
-    top: 3rem;
+    top: 4rem;
     padding: 0.5rem 1rem; }
     @media (min-width: 50em) {
       .main-navigation .menu-primary-container {
-        top: 2rem; } }
+        top: 3rem; } }
     .main-navigation .menu-primary-container #primary-menu {
       font-style: italic;
       font-size: 2rem;
@@ -5833,7 +5843,7 @@ button.close {
           margin-left: 2rem; } }
 
 .hamburger {
-  top: .5rem;
+  top: 1rem;
   right: 1rem;
   position: absolute;
   background-color: white;
@@ -5847,10 +5857,10 @@ button.close {
 
 .logo {
   position: absolute;
-  top: 1rem; }
+  top: 3rem; }
   @media (min-width: 50em) {
     .logo {
-      top: 2rem; } }
+      top: 4rem; } }
   .logo img {
     height: 3rem; }
     @media (min-width: 50em) {
@@ -5905,13 +5915,11 @@ h3 {
   color: #e7412c;
   padding: 0.75rem; }
 
-html, body {
-  height: 100%; }
-
 body {
   font-family: 'Exo 2', sans-serif;
   background-color: #ecf1f4;
-  min-height: 100%; }
+  min-height: 100%;
+  height: 100%; }
 
 @media (min-width: 37.5em) {
   .left-side, .right-side {
