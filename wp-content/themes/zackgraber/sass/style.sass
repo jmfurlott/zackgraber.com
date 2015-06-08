@@ -7,19 +7,21 @@
 @import "regions/regions"
 @import "modules/modules";
 
+html, body
+  height: 100%
+
 body
   font-family: 'Exo 2', sans-serif
   background-color: $background-blue
   min-height: 100%
-  height: 100%
 
 body
 
 //.container
-  padding: 0 1rem
-  @include cf()
-  @include bp(m)
-    padding: 0 5rem
+//  padding: 0 1rem
+//  @include cf()
+//  @include bp(m)
+//    padding: 0 5rem
 
 .left-side, .right-side
   @include bp(s)
