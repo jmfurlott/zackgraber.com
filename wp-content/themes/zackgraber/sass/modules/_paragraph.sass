@@ -1,10 +1,13 @@
 .light-background, .dark-background
   padding: 1rem 0rem 2rem 0rem
+  p
+    font-size: 16pt
+    +bp(s)
+      font-size: 18pt
 
 .light-background
   p
     color: $dark-blue
-    font-size: 18pt
 
 .dark-background
   background-color: $dark-blue
@@ -16,4 +19,3 @@
   p
     color: $background-blue
     font-weight: 200
-    font-size: 18pt

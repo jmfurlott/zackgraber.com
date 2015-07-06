@@ -5881,31 +5881,44 @@ button.close {
 
 h1 {
   color: #18c3e0;
-  font-size: 105pt;
+  font-size: 36pt;
   font-weight: 900;
   line-height: 6rem; }
+  @media (min-width: 37.5em) {
+    h1 {
+      font-size: 105pt; } }
 
 h2 {
   background-color: white;
   font-style: italic;
   color: #1b3032;
   font-weight: 100;
-  font-size: 40pt;
   line-height: 3rem;
   padding: 1rem 0.5rem;
-  display: inline-block; }
+  display: inline-block;
+  font-size: 20pt; }
+  @media (min-width: 37.5em) {
+    h2 {
+      font-size: 40pt; } }
 
 h3 {
   color: #e7412c;
   font-weight: 600;
-  font-size: 25pt; }
+  font-size: 20pt; }
+  @media (min-width: 37.5em) {
+    h3 {
+      font-size: 25pt; } }
 
 .light-background, .dark-background {
   padding: 1rem 0rem 2rem 0rem; }
+  .light-background p, .dark-background p {
+    font-size: 16pt; }
+    @media (min-width: 37.5em) {
+      .light-background p, .dark-background p {
+        font-size: 18pt; } }
 
 .light-background p {
-  color: #1b3032;
-  font-size: 18pt; }
+  color: #1b3032; }
 
 .dark-background {
   background-color: #1b3032; }
@@ -5915,8 +5928,7 @@ h3 {
     color: #ecf1f4; }
   .dark-background p {
     color: #ecf1f4;
-    font-weight: 200;
-    font-size: 18pt; }
+    font-weight: 200; }
 
 #main input, #main textarea {
   border: none;
