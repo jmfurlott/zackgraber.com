@@ -12,7 +12,8 @@ get_header(); ?>
         <div class="row">
           <?php
           $args = array(
-            'post_type' => 'project' 
+            'post_type' => 'project',
+            'posts_per_page' => -1
           );
           $projects_array = get_posts( $args );
           foreach ($projects_array as $project) {
