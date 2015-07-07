@@ -11,7 +11,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 		  <?php while ( have_posts() ) : the_post(); ?>
         <!-- Titles -->
-        <div class="container">
+        <div class="container" style="padding-bottom: 3rem;">
           <h1><?php the_title(); ?></h1>
           <h2><?php the_field("subtitle"); ?></h2>
         </div>

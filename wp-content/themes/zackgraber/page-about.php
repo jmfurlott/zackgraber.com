@@ -5,11 +5,10 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-    <div class="container">
+    <div class="container" style="padding-bottom: 3rem;">
       <h1>I have a confession.</h1>
       <h2>I ended up in the design field by accident.</h2>
     </div>
-
     <div class="dark-background">
       <div class="container">
         <h3>Background</h3>
