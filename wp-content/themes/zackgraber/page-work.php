@@ -5,7 +5,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
       <div class="container">
         <h1>Take a look around.</h1>
-        <h2>But remember, stealing designs kills little baby kittens.</h2>
+        <h2>But remember, stealing designs kills kittens.</h2>
       </div>
       <div class="container">
         <div class="projects">
