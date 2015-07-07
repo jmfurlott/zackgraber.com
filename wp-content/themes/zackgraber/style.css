@@ -5883,23 +5883,25 @@ h1 {
   color: #18c3e0;
   font-size: 36pt;
   font-weight: 900;
-  line-height: 6rem; }
+  line-height: 36pt; }
   @media (min-width: 37.5em) {
     h1 {
-      font-size: 105pt; } }
+      font-size: 105pt;
+      line-height: 80pt; } }
 
 h2 {
   background-color: white;
   font-style: italic;
   color: #1b3032;
   font-weight: 100;
-  line-height: 3rem;
   padding: 1rem 0.5rem;
   display: inline-block;
-  font-size: 20pt; }
+  font-size: 20pt;
+  line-height: 20pt; }
   @media (min-width: 37.5em) {
     h2 {
-      font-size: 40pt; } }
+      font-size: 40pt;
+      line-height: 40pt; } }
 
 h3 {
   color: #e7412c;
@@ -5929,6 +5931,15 @@ h3 {
   .dark-background p {
     color: #ecf1f4;
     font-weight: 200; }
+
+.row {
+  font-size: 16pt; }
+  @media (min-width: 37.5em) {
+    .row {
+      font-size: 18pt; } }
+
+.capabilities .col-sm-6 {
+  border-left: 1px solid white; }
 
 #main input, #main textarea {
   border: none;

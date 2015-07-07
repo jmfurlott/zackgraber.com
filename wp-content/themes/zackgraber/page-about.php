@@ -27,7 +27,7 @@ get_header(); ?>
         </div>
       </div>
 
-      <div class="dark-background">
+      <div class="dark-background capabilities">
         <div class="container">
           <h3>Capabilities</h3>
           <p>Good design is more than a final product. By applying design thinking holistically to every client interaction, we have improved chances of reaching our intended goal.</p>
