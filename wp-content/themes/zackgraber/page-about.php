@@ -13,7 +13,7 @@ get_header(); ?>
     <div class="dark-background">
       <div class="container">
         <h3>Background</h3>
-          <p>I ended up in the design field by accident. As a kid, I admired my older brother’s artistic abilities. I spent much of my time hiding in my bedroom recreating his drawings. By high school, my friends and I were crazy about graffiti. We’d go out every weekend biking around Gainesville with backpacks full of paint, hoping we’d get noticed. I was crazy about sharing my work with as many people as possible, but was always afraid of how quickly they would disappear with a fresh coat of paint.</p>
+          <p>I ended up in the design field by accident. As a kid, I admired my older brother’s artistic abilities. I spent much of my time hiding in my bedroom recreating his drawings. By high school, my friends and I loved graffiti. We’d go out every weekend biking around Gainesville with backpacks full of paint, hoping we’d get noticed. I was crazy about sharing my work with as many people as possible, but was always afraid of how quickly they would disappear with a fresh coat of paint.</p>
           <p>After high school, I wasn’t really sure what I wanted to do with my life. I loved history, hated math, and spent a lot of energy on artistic ventures. I didn’t have the slightest idea what graphic design actually was until my first semester of Digital Arts and Design at Full Sail University. After three months, I was assigned a branding project and discovered how natural it felt. From then on I looked at every assignment through a branding lens.</p>
           <p>After I graduated from college, I started an internship at Parisleaf. At the time, it was a small studio with just 2 designers on staff. My first project was to design the logo for a local spa called Spa Royale. We had a time crunch, and I only had 25 minutes to make it happen. 15 of those minutes were spent being car-sick in the back of a Prius driving to the client meeting. The client loved it and the logo is now an enormous sign on the side of their building. When I saw them unveil the sign, that’s when my passion for branding took off.</p>
         </div>
@@ -49,13 +49,20 @@ get_header(); ?>
         </div>
       </div>
 
-      <div class="light-background">
+      <div class="light-background dream-projects">
         <div class="container">
           <h3>Dream Projects</h3>
           <p>I’m psyched about every project I work on, but there are a few unicorns I’m trying to catch.</p>
-          <p><strong>Evil Corporation in a movie or video game:</strong> I would’ve loved to work on Lost’s Dharma Initiative and all the weird food packaging.</p>
-          <p><strong>Anything to do with BMX:</strong> When I was a kid, I was a huge fan of the BMX scene. I always found myself drawing logos on my bike frame or taking pictures for phony pedal ads.</p>
-          <p><strong>Car Dashboard Display:</strong> Actually, let me do the visuals for an entire car. Not the body, but the icons on the gear shift, the display for the radio, the dash, even the icons on the fluid reservoirs under the hood.</p>
+          <div class="col-sm-12 col-md-6">
+            <p><strong>Evil Corporation in a movie or video game:</strong></p>
+            <p>I would’ve loved to work on Lost’s Dharma Initiative and all the weird food packaging.</p>
+            <p><strong>Anything to do with BMX:</strong></p>
+            <p> When I was a kid, I was a huge fan of the BMX scene. I always found myself drawing logos on my bike frame or taking pictures for phony pedal ads.</p>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <p><strong>Car Dashboard Display:</strong></p>
+            <p>Actually, let me do the visuals for an entire car. Not the body, but the icons on the gear shift, the display for the radio, the dash, even the icons on the fluid reservoirs under the hood.</p>
+          </div>
         </div>
       </div>
 

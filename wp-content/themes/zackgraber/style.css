@@ -5938,7 +5938,7 @@ h3 {
     .row {
       font-size: 18pt; } }
 
-.capabilities .col-sm-6 {
+.capabilities .col-sm-6, .capabilities .col-sm-12, .dream-projects .col-sm-6, .dream-projects .col-sm-12 {
   border-left: 1px solid white; }
 
 #main input, #main textarea {
